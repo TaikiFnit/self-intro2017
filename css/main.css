@@ -31,7 +31,6 @@ section {
   position: absolute;
   top: 50%;
   margin-top: -11em;
-  /*opacity: .01;*/
 }
 
 .left, .right {
@@ -82,39 +81,3 @@ section:last-child .center{
 section:last-child .center h1{
     line-height: 7em;
 }
-
-/*
-.centerAnimation {
-  animation: centerAnimation both;
-}
-
-.centerAnimation {
-  transition: top 1s linear;
-  top: 50%;
-  opacity: 1;
-  transition-property: top opacity;
-  transition-duration: 1s;
-  transition-delay: 0;
-  transition-timing-function: linear;
-}
-
-@keyframes centerAnimation {
-  70% {
-    opacity: .5
-  }
-  100% {
-    top: 50%;
-  }
-}
-
-.leftAnimation {
-  animation: leftAnimation 3s both;
-}
-
-@keyframes leftAnimation {
-  100% {
-    left: 10%;
-  }
-}
-
-*/
