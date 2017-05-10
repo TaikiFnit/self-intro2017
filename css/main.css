@@ -1,0 +1,120 @@
+html, body {
+  background: #FAFAFA;
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 60px;
+  color: #263238;
+  position: relative;
+  font-family:
+   Hiragino Sans,
+   "ヒラギノ角ゴシック",
+   Hiragino Kaku Gothic ProN,
+   "ヒラギノ角ゴ ProN W3",
+   Roboto,
+   "Droid Sans",
+   YuGothic,
+   "游ゴシック",
+   Meiryo,
+   "メイリオ",
+   Verdana,
+   sans-serif;
+}
+
+.center {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -11em;
+  /*opacity: .01;*/
+}
+
+.left, .right {
+  position: absolute;
+}
+
+.left {
+  left: 10%;
+  text-align: left;
+}
+
+.right {
+  right: 10%;
+  text-align: right;
+}
+
+h1 {
+  color: #263238;
+  text-align: center;
+  font-size: 8em;
+  line-height: 1.5;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 7em;
+  margin-bottom: 0.5em;
+}
+
+li {
+  font-size: 4em;
+  line-height: 2;
+}
+
+section:last-child {
+  margin-bottom: 0;
+}
+
+section:last-child .center{
+  position: static;
+  margin-top: 0;
+}
+
+section:last-child .center h1{
+    line-height: 7em;
+}
+
+/*
+.centerAnimation {
+  animation: centerAnimation both;
+}
+
+.centerAnimation {
+  transition: top 1s linear;
+  top: 50%;
+  opacity: 1;
+  transition-property: top opacity;
+  transition-duration: 1s;
+  transition-delay: 0;
+  transition-timing-function: linear;
+}
+
+@keyframes centerAnimation {
+  70% {
+    opacity: .5
+  }
+  100% {
+    top: 50%;
+  }
+}
+
+.leftAnimation {
+  animation: leftAnimation 3s both;
+}
+
+@keyframes leftAnimation {
+  100% {
+    left: 10%;
+  }
+}
+
+*/
